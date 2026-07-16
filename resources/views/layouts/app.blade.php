@@ -36,30 +36,16 @@
                     </li>
 
                     <li>
-                        <a href="/menu" class="flex items-center gap-2 transition hover:text-yellow-500">
+                        <a href="{{ route('menu.index') }}" class="flex items-center gap-2 transition hover:text-yellow-500">
                             <i data-lucide="chef-hat" class="w-5 h-5"></i>
                             Menu
                         </a>
                     </li>
 
                     <li>
-                        <a href="/about" class="flex items-center gap-2 transition hover:text-yellow-500">
-                            <i data-lucide="info" class="w-5 h-5"></i>
-                            About
-                        </a>
-                    </li>
-
-                    <li>
-                        <a href="/reservation" class="flex items-center gap-2 transition hover:text-yellow-500">
+                        <a href="{{ route('reservation') }}" class="flex items-center gap-2 transition hover:text-yellow-500">
                             <i data-lucide="calendar-check" class="w-5 h-5"></i>
                             Reservation
-                        </a>
-                    </li>
-
-                    <li>
-                        <a href="/contact" class="flex items-center gap-2 transition hover:text-yellow-500">
-                            <i data-lucide="phone" class="w-5 h-5"></i>
-                            Contact
                         </a>
                     </li>
 
